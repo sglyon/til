@@ -15,3 +15,15 @@ menu:
       name: tags
       url: /tags/
       weight: 10
+
+params:
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowShareButtons: true
