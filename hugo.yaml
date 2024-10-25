@@ -1,0 +1,17 @@
+baseURL: https://til.spencerlyon.com/
+languageCode: en-us
+title: SGL's TILs
+theme: PaperMod
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+menu:
+  main:
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 10
