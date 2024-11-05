@@ -12,8 +12,8 @@ use `get_field/3`, `get_change/3`, `fetch_field/2` and `fetch_change/2`
 Here's my summary:
 
 - the `get_*` methods are used when want to be able to provide a default value
-- the `fetch_` methods return a tuple with the source of the data (or `:ok`) OR `:error`
-- the `_field` methods will search either the existing data or the changes
+- the `fetch_*` methods return a tuple with the source of the data (or `:ok`) OR `:error`
+- the `*_field` methods will search either the existing data or the changes
 - the `*_change` methods will search only the changes for the key
 
 Short doc snippets for each of the methods
