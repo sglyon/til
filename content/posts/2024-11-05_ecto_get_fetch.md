@@ -5,8 +5,8 @@ title: Ecto changeset retrieval methods
 tags: ["elixir", "ecto"]
 ---
 
-When working with [Ecto.changesets](https://hexdocs.pm/ecto/Ecto.Changeset) I
-have a hard time remembering when I should
+When working with [Ecto.changesets](https://hexdocs.pm/ecto/Ecto.Changeset.html)
+I have a hard time remembering when I should
 use `get_field/3`, `get_change/3`, `fetch_field/2` and `fetch_change/2`
 
 Here's my summary:
