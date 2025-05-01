@@ -10,10 +10,14 @@ I then set up the [DuckDB MCP client](https://github.com/motherduckdb/mcp-server
 
 I then fired up Claude Desktop and entered the following (note some data has been blanked out for privacy):
 
-```md
-I want to use the PRODUCTION_SCHEDULE table to find gaps in the coming months where the nothing will be running on production lines with `line_number` LINEABC1 and LINEABC2. The table has one row per scheduled run and has START and END columns to show when each run will begin and end.
+```markdown
+I want to use the PRODUCTION_SCHEDULE table to find gaps in the coming months
+where the nothing will be running on production lines with `line_number`
+LINEABC1 and LINEABC2. The table has one row per scheduled run and has
+START and END columns to show when each run will begin and end.
 
-Can you write a query that will show us the gaps in between these runs between today and the end of september, 2025?
+Can you write a query that will show us the gaps in between these
+runs between today and the end of september, 2025?
 ```
 
 Claude sonnet 3.7 churned away for about 40 seconds and produced an excellent result:
