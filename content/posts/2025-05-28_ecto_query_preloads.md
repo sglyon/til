@@ -1,7 +1,7 @@
 ---
 date: '2025-05-28 14:59:37'
 draft: false
-title: 'Ecto's `preload` with joins uses a single query!'
+title: "Ecto's `preload` with joins uses a single query!"
 ---
 
 TIL that when you explicitly join associations in Ecto and use `preload`, it executes just ONE query:
