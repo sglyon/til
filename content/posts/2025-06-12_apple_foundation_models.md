@@ -12,4 +12,4 @@ The library allows for many interesting features such as structured outputs, cus
 
 It seems like a really great way to tap into intelligent features inside the app. I'm excited to try it out in Dreamer's Dash.
 
-This [YouTube video](https://www.youtube.com/watch?v=mJMvFyBvZEk)
+This [YouTube video](https://www.youtube.com/watch?v=mJMvFyBvZEk) explains the core features of the Foundation Models Framework.
