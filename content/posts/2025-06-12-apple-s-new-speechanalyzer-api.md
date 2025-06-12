@@ -16,3 +16,5 @@ Here's the announcement video if you want to check it out:
 [https://www.youtube.com/watch?v=0m6dimDDj8M](https://www.youtube.com/watch?v=0m6dimDDj8M)
 
 Need to add this to my list of things to experiment with. Could be a cool way to level up some of the puzzle mechanics in Dreamers Dash.
+
+The `SpeechTranscriber` seems particularly interesting. It currently supports Chinese, English, French, German, Italian, Japanese, Korean, Portuguese, and Spanish. That's most of the languages I will need for support in Epcot's world showcase.
