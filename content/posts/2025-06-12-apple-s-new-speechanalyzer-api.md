@@ -2,8 +2,8 @@
 title: "TIL: Apple's new SpeechAnalyzer API - Potential for Dreamers Dash?"
 date: 2025-06-12
 draft: false
-tags: ["apple", "api", "speech-recognition", "ios", "dreamers-dash", "til"]
-categories: ["TIL", "Tech Discovery"]
+tags: ["ios", "wwdc", "speech-recognition", "dreamers-dash"]
+categories: ["ios"]
 ---
 
 Just saw Apple dropped a new **SpeechAnalyzer API**. Interesting stuff. Looks like it's designed for more detailed speech analysis, not just basic transcription.

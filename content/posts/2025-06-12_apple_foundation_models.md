@@ -2,6 +2,8 @@
 date: '2025-06-12 15:28:48'
 draft: false
 title: 'Apple Foundation Models'
+tags: ["ios", "wwdc", "llm", "dreamers-dash", "swift"]
+categories: ["ios"]
 ---
 
 At WWDC25 Apple introduced their new Foundation Models Framework.

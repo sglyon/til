@@ -2,6 +2,7 @@
 date: '2025-05-01 13:51:48'
 draft: false
 title: 'Claude + Duckdb + MCP == data engineering productivity boost'
+tags: ["duckdb", "data-engineering", "mcp"]
 ---
 
 I was working on a job for a client and had extracted a subset of production data into a duckdb database.

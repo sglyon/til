@@ -2,6 +2,7 @@
 date: '2025-05-12 21:16:48'
 draft: false
 title: 'Adding `dbt-utils` requires `dbt deps'
+tags: ["dbt", "data-engineering"]
 ---
 
 I added `dbt-utils` to an existing `dbt` project. Things worked great on dev, but not prod ("worked on my machine!")
