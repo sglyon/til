@@ -6,9 +6,8 @@ user_notes: $ARGUMENTS
 
 **ARGUMENTS PARSING:**
 Parse the following arguments from "$ARGUMENTS":
+
 1. `user_notes` - notes from the user that describe the main purpose of the til post
-2. `output_dir` - Directory where iterations will be saved
-3. `count` - Number of iterations (1-N or "infinite")
 
 **Instructions**
 
