@@ -6,9 +6,14 @@ tags: ["ai", "claude-code", "cursor", "aider", "productivity"]
 categories: ["tools", "workflow"]
 ---
 
-I just realized something really cool about AI coding assistants like Claude Code, Cursor, and Aider - they're completely stateless. When we think we're having a "conversation," we're actually just sending the entire chat history with each new request.
+I wanted to jot down one of my
+favorite pro tips for using AI coding assistants like Claude Code, Cursor, and Aider - 
 
-This architecture unlocks a killer feature: **sessions are fully resumable**.
+The trick? they're completely stateless. When we think we're having a "conversation," we're actually just sending the entire chat history with each new request.
+
+At first, this might seem inconvenient at best and really expensive at worst. However, putting the burden of memory in the application layer allows for inference engines to be streamlined, simple, ans single focused. Also with smart use of prompt caching, sending over the chat history on every message doesn't actually end up costing as much as it seems.
+
+What's more, this architecture unlocks a killer feature: **sessions are fully resumable**.
 
 Here's what happened today: I was working on some code while waiting at my son's diving lesson, tethering through my iPhone. When it was time to leave, I just hit `Escape` in Claude Code to exit. Got home, opened my laptop, typed `continue`, and boom - Claude picked up exactly where we left off.
 
