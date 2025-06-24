@@ -11,7 +11,7 @@ favorite pro tips for using AI coding assistants like Claude Code, Cursor, and A
 
 The trick? they're completely stateless. When we think we're having a "conversation," we're actually just sending the entire chat history with each new request.
 
-At first, this might seem inconvenient at best and really expensive at worst. However, putting the burden of memory in the application layer allows for inference engines to be streamlined, simple, ans single focused. Also with smart use of prompt caching, sending over the chat history on every message doesn't actually end up costing as much as it seems.
+At first, this might seem inconvenient at best and really expensive at worst. However, putting the burden of memory in the application layer allows for inference engines to be streamlined, simple, and single focused. Also with smart use of prompt caching, sending over the chat history on every message doesn't actually end up costing as much as it seems.
 
 What's more, this architecture unlocks a killer feature: **sessions are fully resumable**.
 
