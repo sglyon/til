@@ -24,6 +24,6 @@ The proxy handles the translation, allowing FastMCP servers to relay MCP client 
 
 ## The Relief
 
-I'd been banging my head against this OAuth-for-MCP wall for ages. When I got it working with the new OAuthProxy, it felt like magic. Sometimes the solution you need is just a well-timed library update away.
+I'd been banging my head against this OAuth-for-MCP wall for a couple weeks. When I got it working with the new OAuthProxy, it felt like magic. Sometimes the solution you need is just a well-timed library update away.
 
 If you're trying to integrate MCP with traditional OAuth providers, FastMCP 2.12's OAuthProxy is your friend. Don't waste time trying to force DCR where it doesn't exist - let the proxy handle the heavy lifting.
